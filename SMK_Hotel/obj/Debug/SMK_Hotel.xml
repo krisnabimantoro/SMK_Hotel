@@ -1,0 +1,661 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMK_Hotel
+</name>
+</assembly>
+<members>
+<member name="T:SMK_Hotel.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SMK_Hotel.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SMK_Hotel.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.CustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.EmployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.FoodBeverageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.FoodBeverageDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.JobDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationCheckOutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationRequestItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationRoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.RoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.RoomTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.CustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.EmployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.FoodBeverageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.FoodBeverageDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.JobRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationCheckOutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationRequestItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationRoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.RoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.RoomTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.CustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.EmployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.FoodBeverageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.FoodBeverageDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.JobRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationCheckOutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationRequestItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.ReservationRoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.RoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet.RoomTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.CustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.EmployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.FoodBeverageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.FoodBeverageDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.ItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.JobTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.ReservationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.ReservationCheckOutTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.ReservationRequestItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.ReservationRoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.RoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.RoomTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SMK_Hotel.SMK_HotelDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SMK_Hotel.SMK_HotelDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SMK_Hotel.SMK_HotelDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSetTableAdapters.TableAdapterManager.UpdateAll(SMK_Hotel.SMK_HotelDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet1.ItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet1.ItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet1.ItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet1TableAdapters.ItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMK_Hotel.SMK_HotelDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(SMK_Hotel.SMK_HotelDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(SMK_Hotel.SMK_HotelDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSet1TableAdapters.TableAdapterManager.UpdateAll(SMK_Hotel.SMK_HotelDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.CustomerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.EmployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.FoodBeverageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.FoodBeverageDetailDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.JobDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationCheckOutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationRequestItemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationRoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.RoomDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.RoomTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.CustomerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.EmployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.FoodBeverageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.FoodBeverageDetailRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.JobRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationCheckOutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationRequestItemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationRoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.RoomRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.RoomTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.CustomerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.EmployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.FoodBeverageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.FoodBeverageDetailRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.JobRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationCheckOutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationRequestItemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.ReservationRoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.RoomRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2.RoomTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.CustomerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.EmployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.FoodBeverageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.FoodBeverageDetailTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.ItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.JobTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.ReservationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.ReservationCheckOutTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.ReservationRequestItemTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.ReservationRoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.RoomTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.RoomTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMK_Hotel.SMK_HotelDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(SMK_Hotel.SMK_HotelDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(SMK_Hotel.SMK_HotelDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SMK_Hotel.SMK_HotelDataSet2TableAdapters.TableAdapterManager.UpdateAll(SMK_Hotel.SMK_HotelDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SMK_Hotel.SMK_HotelDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
